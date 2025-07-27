@@ -1,19 +1,26 @@
 import React, { useState, useEffect } from "react";
 import { greetings, socialLinks } from "../portfolio";
-import Headroom from "headroom.js";
 import { UncontrolledCollapse, NavbarBrand, Navbar, NavItem, NavLink, Nav, Container, Row, Col } from "reactstrap";
 
 const Navigation = () => {
   const [collapseClasses, setCollapseClasses] = useState("");
+  const [isClient, setIsClient] = useState(false);
+
   const onExiting = () => setCollapseClasses("collapsing-out");
 
   const onExited = () => setCollapseClasses("");
 
   useEffect(() => {
-    let headroom = new Headroom(document.getElementById("navbar-main")!);
-    // initialise
-    headroom.init();
-  });
+    setIsClient(true);
+    
+    // Only initialize headroom on the client side
+    if (typeof window !== 'undefined') {
+      const Headroom = require("headroom.js");
+      let headroom = new Headroom(document.getElementById("navbar-main")!);
+      // initialise
+      headroom.init();
+    }
+  }, []);
 
   return (
     <>
