@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi all, I'm Anshul",
   description:
     "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with PHP, Laravel, React.js, Next.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "/Anshul-Thathera CV (27-07).pdf",
+  resumeLink: " /Anshul-Thathera CV (27-07).pdf",
 };
 
 export const openSource = {
@@ -49,40 +49,52 @@ export const skillsSection: SkillsSectionType = {
       softwareSkills: [
         {
           skillName: "Python",
-          iconifyTag: "logos:php",
+          iconifyTag: "logos:python",
         },
         {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
+          skillName: "HTML",
+          iconifyTag: "vscode-icons:file-type-html",
+        },
+        {
+          skillName: "CSS",
+          iconifyTag: "vscode-icons:file-type-css",
+        },
+        {
+          skillName: "Laravel",
+          iconifyTag: "logos:laravel",
+        },
+        {
+          skillName: "SQL",
+          iconifyTag: "logos:mysql",
+        },
+        {
+          skillName: "C",
+          iconifyTag: "logos:c",
+        },
+        {
+          skillName: "C++",
+          iconifyTag: "logos:c-plusplus",
+        },
+        {
+          skillName: "Next.JS",
+          iconifyTag: "vscode-icons:file-type-light-next",
         },
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
         },
         {
-          skillName: "Reactjs",
+          skillName: "PHP",
+          iconifyTag: "logos:php",
+        },
+        {
+          skillName: "React.Js",
           iconifyTag: "vscode-icons:file-type-reactjs",
-        },
-        {
-          skillName: "Nextjs",
-          iconifyTag: "vscode-icons:file-type-light-next",
-        },
-        {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
-        },
-        {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
         },
         {
           skillName: "Github",
           iconifyTag: "akar-icons:github-fill",
-        },
-        {
-          skillName: "Docker",
-          iconifyTag: "logos:docker-icon",
-        },
+        }
       ],
     },
   ],
