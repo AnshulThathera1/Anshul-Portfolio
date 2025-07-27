@@ -76,7 +76,7 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "logos:c-plusplus",
         },
         {
-          skillName: "Next.JS",
+          skillName: "NextJS",
           iconifyTag: "vscode-icons:file-type-light-next",
         },
         {
@@ -88,7 +88,7 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "logos:php",
         },
         {
-          skillName: "React.Js",
+          skillName: "ReactJs",
           iconifyTag: "vscode-icons:file-type-reactjs",
         },
         {
