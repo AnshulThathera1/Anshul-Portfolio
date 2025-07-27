@@ -15,21 +15,21 @@ export const greetings: GreetingsType = {
   name: "Anshul Thathera",
   title: "Hi all, I'm Anshul",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with PHP, Laravel, React.js, Next.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
   resumeLink: "#",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "AnshulThathera1",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
+  email: "mailto:anshulkasera35@gmail.com",
+  linkedin: "https://www.linkedin.com/in/anshul-thathera",
+  github: "https://github.com/AnshulThathera1",
+  instagram: "https://www.instagram.com/anshulkasera.01",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
 };
@@ -42,18 +42,18 @@ export const skillsSection: SkillsSectionType = {
       title: "Full Stack Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
+        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js & Next.js"),
         emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Building RESTful APIs in Laravel & REST APIs"),
       ],
       softwareSkills: [
         {
-          skillName: "Python",
+          skillName: "PHP",
           iconifyTag: "logos:php",
         },
         {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
+          skillName: "Laravel",
+          iconifyTag: "logos:laravel",
         },
         {
           skillName: "JavaScript",
@@ -61,27 +61,27 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: "Reactjs",
-          iconifyTag: "vscode-icons:file-type-reactjs",
+          iconifyTag: "logos:reactjs",
         },
         {
           skillName: "Nextjs",
-          iconifyTag: "vscode-icons:file-type-light-next",
+          iconifyTag: "logos:nextjs",
         },
         {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
+          skillName: "MySQL",
+          iconifyTag: "logos:mysql",
         },
         {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
+          skillName: "Python",
+          iconifyTag: "logos:python",
         },
         {
           skillName: "Github",
           iconifyTag: "akar-icons:github-fill",
         },
         {
-          skillName: "Docker",
-          iconifyTag: "logos:docker-icon",
+          skillName: ".NET",
+          iconifyTag: "logos:dotnet",
         },
       ],
     },
@@ -105,11 +105,19 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
-    desc: "",
+    schoolName: "Geetanjali Institute of Technical Studies",
+    subHeader: "Bachelor of Technology in Computer Science and Engineering",
+    duration: "August 2020 - May 2024",
+    desc: "I have completed my Bachelor of Technology in Computer Science and Engineering from Geetanjali Institute of Technical Studies, Udaipur.",
     grade: "Grade A",
+    descBullets: [], // Array of Strings
+  },
+  {
+    schoolName: "Central Academy Senior Secondary School",
+    subHeader: "Senior Secondary School",
+    duration: "April 2018 - March 2020",
+    desc: "I have completed my Schooling from Central Academy Senior Secondary School, Udaipur.",
+    grade: "Grade B",
     descBullets: [], // Array of Strings
   },
 ];
