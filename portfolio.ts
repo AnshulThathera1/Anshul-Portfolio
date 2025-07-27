@@ -158,14 +158,18 @@ export const projects: ProjectType[] = [
   {
     name: "E-Commerce Website",
     desc: `Developed an e-commerce clothing website from scratch using HTML, CSS, and JavaScript.\nUtilized JavaScript to add interactive features and enhance website functionality.\nImplemented responsive web design principles to ensure compatibility across various devices.`,
+    github: "https://github.com/AnshulThathera1/Ak",
+    link: "https://anshulthathera1.github.io/Ak/",
   },
   {
     name: "Shri Pahadi Balaji Website",
     desc: `Worked in a team of three to design and develop a website.\nIntroductory and donation collection site for the local temple of Udaipur.\nDeveloped using HTML, CSS, and JS.`,
+    link: "https://www.shripahadibalaji.in/",
   },
   {
     name: "Brain Tumor Detection",
     desc: `Built a basic machine learning model to detect brain tumors from medical images.\nApplied image classification techniques to identify tumor presence.\nFocused on data preprocessing, model training, and evaluation.`,
+    github: "https://github.com/AnshulThathera1/Brain-Tumor-Detection",
   },
 ];
 
