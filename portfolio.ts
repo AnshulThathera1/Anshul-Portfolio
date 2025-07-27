@@ -15,21 +15,21 @@ export const greetings: GreetingsType = {
   name: "Anshul Thathera",
   title: "Hi all, I'm Anshul",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with PHP, Laravel, React.js, Next.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
   resumeLink: "#",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "AnshulThathera1",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
+  email: "mailto:anshulkasera35@gmail.com",
+  linkedin: "https://www.linkedin.com/in/anshul-thathera",
+  github: "https://github.com/AnshulThathera1",
+  instagram: "https://www.instagram.com/anshulkasera.01",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
 };
@@ -44,7 +44,7 @@ export const skillsSection: SkillsSectionType = {
       skills: [
         emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
         emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Building RESTful APIs in Laravel & REST APIs"),
       ],
       softwareSkills: [
         {
