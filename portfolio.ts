@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Anshul Thathera",
   title: "Hi all, I'm Anshul",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with PHP, Laravel, React.js, Next.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
   resumeLink: "#",
 };
 
@@ -26,10 +26,10 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
+  email: "mailto:anshulkasera35@gmail.com",
+  linkedin: "https://www.linkedin.com/in/anshul-thathera",
+  github: "https://github.com/AnshulThathera1",
+  instagram: "https://www.instagram.com/anshulkasera.01",
   // facebook: 'https://www.facebook.com/1hanzla100',
   // twitter: 'https://twitter.com/1hanzla100',
 };
@@ -48,32 +48,32 @@ export const skillsSection: SkillsSectionType = {
       ],
       softwareSkills: [
         {
-          skillName: "Python",
-          iconifyTag: "logos:python",
+          skillName: "PHP",
+          iconifyTag: "logos:php",
         },
         {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
+          skillName: "Laravel",
+          iconifyTag: "vscode-icons:file-type-laravel",
+        },
+        {
+          skillName: "Laravel",  
+          iconifyTag: "vscode-icons:file-type-laravel",
+        },
+        {
+          skillName: "React.js",
+          iconifyTag: "vscode-icons:file-type-reactjs",
+        },
+        {
+          skillName: "Next.js",
+          iconifyTag: "vscode-icons:file-type-light-next",
+        },
+        {
+          skillName: "MySQL",
+          iconifyTag: "logos:mysql",
         },
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
-        },
-        {
-          skillName: "Reactjs",
-          iconifyTag: "vscode-icons:file-type-reactjs",
-        },
-        {
-          skillName: "Nextjs",
-          iconifyTag: "vscode-icons:file-type-light-next",
-        },
-        {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
-        },
-        {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
         },
         {
           skillName: "Github",
