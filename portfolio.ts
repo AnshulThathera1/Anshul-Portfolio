@@ -105,11 +105,19 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
-    desc: "",
+    schoolName: "Geetanjali Institute of Technical Studies",
+    subHeader: "Bachelor of Technology in Computer Science and Engineering",
+    duration: "August 2020 - May 2024",
+    desc: "I have completed my Bachelor of Technology in Computer Science and Engineering from Geetanjali Institute of Technical Studies, Udaipur.",
     grade: "Grade A",
+    descBullets: [], // Array of Strings
+  },
+  {
+    schoolName: "Central Academy Senior Secondary School",
+    subHeader: "Senior Secondary School",
+    duration: "April 2018 - March 2020",
+    desc: "I have completed my Schooling from Central Academy Senior Secondary School, Udaipur.",
+    grade: "Grade B",
     descBullets: [], // Array of Strings
   },
 ];
