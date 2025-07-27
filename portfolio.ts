@@ -49,7 +49,7 @@ export const skillsSection: SkillsSectionType = {
       softwareSkills: [
         {
           skillName: "Python",
-          iconifyTag: "logos:python",
+          iconifyTag: "logos:php",
         },
         {
           skillName: "Django",
