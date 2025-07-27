@@ -132,36 +132,25 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    role: "Full-Stack Developer",
+    company: "Cognus Technology",
+    companyLogo: "/img/icons/common/CT.png", // Update with actual logo if available
+    date: "May 2025 – Present",
+    desc: `Developing and maintaining scalable web applications using Next.js (frontend) and Laravel (PHP) (backend) for the Team Gradding.\nManaging and optimizing MySQL databases to ensure smooth data flow and system efficiency.\nCollaborating with cross-functional teams to deliver new features, fix bugs, and enhance overall user experience.`,
   },
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: "Web Developer",
+    company: "Warrgyiz Morsch Pvt. Ltd.",
+    companyLogo: "/img/icons/common/W.png", // Update with actual logo if available
+    date: "Nov 2024 – Apr 2025",
+    desc: `Accomplished Front End Developer with experience in React.js and .NET development.\nCollaborated closely with back-end developers and designers to enhance usability and optimize performance.\nImplemented responsive design techniques to ensure seamless user experiences across various devices and screen sizes.\nDemonstrated ability to work within agile methodologies, participating in sprint planning, stand-ups, and retrospectives.\nStrong problem-solving skills and a passion for creating innovative and intuitive web applications.`,
   },
   {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
-  },
-  {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
+    role: "Web Developer",
+    company: "Bharat Intern",
+    companyLogo: "/img/icons/common/BI.png", // Update with actual logo if available
+    date: "Internship",
+    desc: `Gained hands-on experience and mentorship in industry-standard practices.\nSuccessfully executed three projects, showcasing proficiency in HTML, CSS, JavaScript, and SQL.\nDeveloped collaborative teamwork skills and deepened understanding of web development standards and best practices.`,
   },
 ];
 
