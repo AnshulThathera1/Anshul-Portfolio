@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi all, I'm Anshul",
   description:
     "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with PHP, Laravel, React.js, Next.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
-  resumeLink: "../public/Anshul-Thathera CV (27-07).pdf",
+  resumeLink: "/Anshul-Thathera CV (27-07).pdf",
 };
 
 export const openSource = {
