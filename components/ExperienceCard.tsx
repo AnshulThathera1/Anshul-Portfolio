@@ -31,7 +31,7 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
             {role}
           </CardSubtitle>
           <CardSubtitle>{date}</CardSubtitle>
-          <CardText tag="div" className="description my-3 text-left">
+          <CardText tag="div" className="description my-3 text-justify">
             {desc}
             <ul>
               {descBullets
