@@ -156,25 +156,16 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "E-Commerce Website",
+    desc: `Developed an e-commerce clothing website from scratch using HTML, CSS, and JavaScript.\nUtilized JavaScript to add interactive features and enhance website functionality.\nImplemented responsive web design principles to ensure compatibility across various devices.`,
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "Shri Pahadi Balaji Website",
+    desc: `Worked in a team of three to design and develop a website.\nIntroductory and donation collection site for the local temple of Udaipur.\nDeveloped using HTML, CSS, and JS.`,
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
-  },
-  {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "Brain Tumor Detection",
+    desc: `Built a basic machine learning model to detect brain tumors from medical images.\nApplied image classification techniques to identify tumor presence.\nFocused on data preprocessing, model training, and evaluation.`,
   },
 ];
 
