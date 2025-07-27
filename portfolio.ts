@@ -113,7 +113,7 @@ export const educationInfo: EducationType[] = [
     descBullets: [], // Array of Strings
   },
   {
-    schoolName: "Central Academy Senior Secondary School",
+    schoolName: "Central Academy Senior Secondary School, Udaipur",
     subHeader: "Senior Secondary School",
     duration: "April 2018 - March 2020",
     desc: "I have completed my Schooling from Central Academy Senior Secondary School, Udaipur.",
