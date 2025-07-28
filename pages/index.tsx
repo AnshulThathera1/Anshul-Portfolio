@@ -10,6 +10,7 @@ const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
 const GithubProfileCard = dynamic(() => import("../components/GithubProfileCard"));
 import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
+import { Analytics } from "@vercel/analytics/next"
 import { GithubUserType } from "../types";
 
 export default function Home({ githubProfileData }: { githubProfileData: any }) {
@@ -25,6 +26,7 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
       {/* <Feedbacks /> */}
       <Projects />
       <GithubProfileCard {...githubProfileData} />
+      <Analytics />
     </div>
   );
 }
